@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Move</title>
+		<link rel="stylesheet" href="main.css"/>
+	</head>
+
+	<body window.onload = "draw()">
+		<h1>Move</h1>
+		<ul>
+			<li id="rand">
+				Random
+			</li>
+			<li id="followMouse">
+				Follow Mouse
+			</li>
+		</ul>
+		<h3>Velocity:</h3>	
+		<ul>
+			<li id="vel_0p50">
+				0.50x
+			</li>
+			<li id="vel_0p75">
+				0.75x
+			</li>
+			<li id="vel_1p00">
+				1.00x
+			</li>
+			<li id="vel_1p50">
+				1.50x
+			</li>
+			<li id="vel_2p00">
+				2.00x
+			</li>
+		</ul>
+		<canvas id="canvas" width="40" height="20"></canvas>
+		<script src="game.js"></script>
+	</body>
+</html>

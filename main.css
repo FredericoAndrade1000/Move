@@ -1,0 +1,21 @@
+body{
+	background-color: cadetblue;
+}
+canvas{
+	background-color: white;
+	width: 800px;
+	height: 400px;
+	border: 1px solid;
+	image-rendering: pixelated;
+}
+h1, h2, h3, h4{
+	font-family: Arial;
+}
+ul li{
+	font-family: Arial;
+	background-color: lightgray;
+	width: 100px;
+	text-align: center;
+	cursor: pointer;
+	display: inline-block
+}
